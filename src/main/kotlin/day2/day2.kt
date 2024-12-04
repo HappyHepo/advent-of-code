@@ -3,7 +3,7 @@ package day2
 import java.io.File
 
 fun getReports(): List<List<Int>> =
-    File("input/day2")
+    File("inputs/day2")
         .bufferedReader()
         .use { reader ->
             reader.lines()

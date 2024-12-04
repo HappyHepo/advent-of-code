@@ -3,7 +3,7 @@ package day3
 import java.io.File
 
 fun main() {
-    val result = File("input/day3")
+    val result = File("inputs/day3")
         .bufferedReader()
         .use { reader ->
             reader.lines().toList()

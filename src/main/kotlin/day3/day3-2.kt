@@ -4,7 +4,7 @@ import java.io.File
 import java.util.stream.Collectors
 
 fun main() {
-    val result = File("input/day3")
+    val result = File("inputs/day3")
         .bufferedReader()
         .use { reader ->
             val enabled = reader.lines().collect(Collectors.joining())

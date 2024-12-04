@@ -6,7 +6,7 @@ fun getLists(): Pair<MutableList<Int>, MutableList<Int>> {
     val list1 = mutableListOf<Int>()
     val list2 = mutableListOf<Int>()
 
-    File("input/day1")
+    File("inputs/day1")
         .bufferedReader()
         .use { reader ->
             reader.lines()
