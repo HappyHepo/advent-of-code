@@ -1,4 +1,4 @@
-package day1
+package de.happyhepo.adventofcode.day1
 
 import kotlin.math.absoluteValue
 

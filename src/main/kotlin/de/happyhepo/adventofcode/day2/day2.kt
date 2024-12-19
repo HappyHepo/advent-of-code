@@ -1,4 +1,4 @@
-package day2
+package de.happyhepo.adventofcode.day2
 
 import java.io.File
 

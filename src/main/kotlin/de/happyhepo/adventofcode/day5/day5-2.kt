@@ -1,4 +1,4 @@
-package day5
+package de.happyhepo.adventofcode.day5
 
 fun main() {
     val (rules, updates) = getRulesAndUpdates()

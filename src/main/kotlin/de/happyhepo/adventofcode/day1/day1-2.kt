@@ -1,4 +1,4 @@
-package day1
+package de.happyhepo.adventofcode.day1
 
 fun main() {
     val (list1, list2) = getLists()

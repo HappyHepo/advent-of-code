@@ -1,4 +1,8 @@
-package day4
+package de.happyhepo.adventofcode.day4
+
+import de.happyhepo.adventofcode.Coordinate
+import de.happyhepo.adventofcode.plus
+import de.happyhepo.adventofcode.times
 
 fun main() {
     val matrix = getMatrix()

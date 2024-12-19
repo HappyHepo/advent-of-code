@@ -1,11 +1,9 @@
-package day4
+package de.happyhepo.adventofcode.day4
 
+import de.happyhepo.adventofcode.Coordinate
+import de.happyhepo.adventofcode.plus
+import de.happyhepo.adventofcode.times
 import java.io.File
-
-typealias Coordinate = Pair<Int, Int>
-
-operator fun Coordinate.plus(other: Coordinate): Coordinate = first + other.first to second + other.second
-operator fun Coordinate.times(factor: Int): Coordinate = first * factor to second * factor
 
 fun getMatrix() = File("inputs/day4")
     .bufferedReader()
